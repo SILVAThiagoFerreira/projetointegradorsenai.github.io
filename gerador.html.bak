@@ -50,7 +50,7 @@
            the entered data -->
           <button type="button" class=
             "btn btn-default" id="generate">
-            Gerar MULTI QRCODE
+            Gerar SENAI - MULTI - QR CODE
           </button>
         </div>
       </div>
