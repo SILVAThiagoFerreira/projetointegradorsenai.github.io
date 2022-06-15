@@ -3,7 +3,7 @@
  
  <div>
    <img src="https://static.portaldaindustria.com.br/media/uploads/logotipos/logo-senai.png" style="top:08%; right:42%; position:absolute;" width="240">
-   <p> Atualização 3 <p>
+   <p> Atualização 5 <p>
  </div>
 
 
@@ -37,6 +37,12 @@
 	  
  </div>
  
+
+ <div style="top:66%; right:46%; position:absolute;" width="240">
+      <A HREF="sistemaderedirect.html">Sistema de Redirect</A>
+	  
+ </div>
+
  
  <div style="top:90%; right:47%; position:absolute;" width="240">
       <p> <input type="submit" name="Ola Estou Aqui, preciso do seu Auxilio" value="Enviar"> <input type="reset" name="BTApaga" value="Apagar"> </p></form>
