@@ -1,8 +1,5 @@
- <div id="my-div" style="top:72%; right:43%; position:absolute; .content{
-     margin: 30px;
-    }
-.botao01{
-     background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+#Sistema_GERADOR_DE_QR_CODE {
+background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
      background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
      background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
      background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
@@ -23,7 +20,7 @@
      text-shadow:1px 1px 0 #FFF;
      padding: 5px 15px;
      position: relative;
-     width: 80px;
+     width: 235px;
 }
  
 .botao01:before{
@@ -57,7 +54,8 @@
     .botao01:active:before{
      border: none;
      box-shadow:none;
-    }" width="240">
-      <A HREF="gerador.html">Sistema GERADOR DE QR CODE</A>
-	  
- </div>
+}
+text-decoration: none;
+
+/* ------------------------------------------------------------------ */
+
