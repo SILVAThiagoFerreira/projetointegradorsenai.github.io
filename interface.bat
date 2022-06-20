@@ -64,6 +64,7 @@ goto menu
 cls
 start mostraraudio.cmd
 start sistemaaudio
+start alertasistemaaudio.vbs
 exit
 echo ==================================
 echo *Mostrar AUDIO FOI ESCOLHIDO     *
