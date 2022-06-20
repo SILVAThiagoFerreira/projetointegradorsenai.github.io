@@ -31,6 +31,7 @@ if %opcao% equ 5 goto opcao5
 cls
 start mostrardocumento.cmd
 start sistemadocumento
+start alertasistemadocumento.vbs
 exit
 echo ==================================
 echo *Mostrar DOCUMENTO FOI ESCOLHIDO *
@@ -42,6 +43,7 @@ goto menu
 cls
 start mostrarvideo.cmd
 start sistemavideo
+start alertasistemavideo.vbs
 exit
 echo ==================================
 echo *Mostrar VIDEO FOI ESCOLHIDO     *
@@ -53,6 +55,7 @@ goto menu
 cls
 start mostrarimagem.cmd
 start sistemaimg
+start alertasistemaimg.vbs
 exit
 echo ==================================
 echo *Mostrar IMAGEM FOI ESCOLHIDO    *
