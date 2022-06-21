@@ -13,15 +13,15 @@ time /t
 
 echo Computador: %computername%        Usuario: %username%
                    
-echo  SELECIONE O TIPO DE ARQUIVO QUE DESEJA MOSTRAR
-echo  ===============================================
-echo * 1. Instrucoes sobre o SISTEMA DE DOCUMENTOS  *
-echo * 2. Instrucoes sobre o SISTEMA DE VIDEOS      *
-echo * 3. Instrucoes sobre o SISTEMA DE IMAGENS     *
-echo * 4. Instrucoes sobre o SISTEMA DE AUDIOS      *
-echo * 5. Voltar para o Painel Inicial              *
-echo * 6. Sair deste Programa                       *
-echo  ===============================================
+echo  SELECIONE O TIPO DE INSTRUCAO QUE DESEJA RECEBER
+echo  ================================================
+echo * 1. Instrucoes sobre o SISTEMA DE DOCUMENTOS   *
+echo * 2. Instrucoes sobre o SISTEMA DE VIDEOS       *
+echo * 3. Instrucoes sobre o SISTEMA DE IMAGENS      *
+echo * 4. Instrucoes sobre o SISTEMA DE AUDIOS       *
+echo * 5. Voltar para o Painel Inicial               *
+echo * 6. Sair deste Programa                        *
+echo  ================================================
 
 set /p opcao= Escolha uma opcao: 
 echo ------------------------------
