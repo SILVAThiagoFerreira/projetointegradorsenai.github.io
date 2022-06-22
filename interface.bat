@@ -46,7 +46,7 @@ if %opcao% GEQ 0 goto opcao0
 
 :opcao1
 
-start mostrardocumento.cmd
+start mostrardocumento.bat
 
 echo ==================================
 echo *Mostrar DOCUMENTO FOI ESCOLHIDO *
@@ -56,7 +56,7 @@ goto menu
 
 :opcao2
 
-start mostrarvideo.cmd
+start mostrarvideo.bat
 
 echo ==================================
 echo *Mostrar VIDEO FOI ESCOLHIDO     *
@@ -66,7 +66,7 @@ goto menu
 
 :opcao3
 
-start mostrarimagem.cmd
+start mostrarimagem.bat
 
 echo ==================================
 echo *Mostrar IMAGEM FOI ESCOLHIDO    *
@@ -76,7 +76,7 @@ goto menu
 
 :opcao4
 
-start mostraraudio.cmd
+start mostraraudio.bat
 
 echo ==================================
 echo *Mostrar AUDIO FOI ESCOLHIDO     *
