@@ -14,18 +14,18 @@ time /t
 echo Computador: %computername%        Usuario: %username%
                    
 echo  SELECIONE O TIPO DE ARQUIVO QUE DESEJA MOSTRAR
-echo  ================================================================
-echo * 1. Mostrar DOCUMENTO                                          *
-echo * 2. Mostrar VIDEO                                              *
-echo * 3. Mostrar IMAGEM                                             *
-echo * 4. Mostrar AUDIO                                              *
-echo * 5. Instrucoes                                                 *
-echo * 6. Mostar pasta RAIZ para colocar os ARQUIVOS DE DOCUMENTO    *
-echo * 7. Mostar pasta RAIZ para colocar os ARQUIVOS DE VIDEO        *
-echo * 8. Mostar pasta RAIZ para colocar os ARQUIVOS DE IMAGEM       *
-echo * 9. Mostar pasta RAIZ para colocar os ARQUIVOS DE AUDIO        *
-echo * 10. Sair deste Programa                                       *
-echo  ================================================================
+echo  ======================================================================
+echo * "1". Mostrar DOCUMENTO                                              *
+echo * "2". Mostrar VIDEO                                                  *
+echo * "3". Mostrar IMAGEM                                                 *
+echo * "4". Mostrar AUDIO                                                  *
+echo * "5". Instrucoes                                                     *
+echo * "6". Mostar pasta RAIZ para colocar os ARQUIVOS DE DOCUMENTO        *
+echo * "7". Mostar pasta RAIZ para colocar os ARQUIVOS DE VIDEO            *
+echo * "8". Mostar pasta RAIZ para colocar os ARQUIVOS DE IMAGEM           *
+echo * "9". Mostar pasta RAIZ para colocar os ARQUIVOS DE AUDIO            *
+echo * "10" ou "Sair". Sair deste Programa                                 *
+echo  ======================================================================
 
 set /p opcao= Escolha uma opcao: 
 echo ------------------------------
@@ -40,6 +40,8 @@ if %opcao% equ 7 goto opcao7
 if %opcao% equ 8 goto opcao8
 if %opcao% equ 9 goto opcao9
 if %opcao% equ 10 goto opcao10
+if %opcao% equ Sair goto opcao10
+if %opcao% equ sair goto opcao10
 if %opcao% GEQ 0 goto opcao0
 
 
