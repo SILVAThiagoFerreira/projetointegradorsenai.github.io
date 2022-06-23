@@ -1,1 +1,3 @@
-msg * aaa
+echo css/*
+
+pause
