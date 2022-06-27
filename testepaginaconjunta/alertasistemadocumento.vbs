@@ -1,0 +1,1 @@
+msgbox "O sistema abriu a Ajuda sobre o sistema de documentos. Formatos aceitos: .HTML, .PDF e .TXT. Nomeie o Arquivo desejado com o nome -Arquivo-. Caso deseje Exibir o Documento opte pelo Formato HTML em detrimento do PDF, pois o formato PDF sugere que o arquivo sera baixado e nao exibido diretamente. ",vbalert, "Instroducao sobre o Sistema de Documentos"
