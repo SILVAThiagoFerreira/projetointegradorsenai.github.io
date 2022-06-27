@@ -1,8 +1,0 @@
-<iframe src="files/husky.pdf" height="100%" width="100%"></iframe>
-
-
-<iframe src="arquivo.pdf" height="100%" width="100%"></iframe>
-
-
-
-<A HREF="arquivo.html">Sistema PDF</A>
