@@ -5,32 +5,7 @@ cls
 :menu
 cls
 
-echo ===========================================
-echo [. #######..###..#...##.....#..########..~]
-echo [.##.....#..######.....##.###..#I....##..~]
-echo [.##.....#..#.....##..... ..#..#I....##..~]
-echo [.##.....#..#...............#..#I....##..~]
-echo [.#### ###.....................## #####..~]
-echo [........................................~]
-echo [#######.........................####### .]
-echo [#,,,,,.....####... # ... ###.....,,###,.~]
-echo [####.......##################......#....~]
-echo [...#.......#++-++++-+--++-+++#....#.##.~.]
-echo [#.........#-+--+----+--+-+-+-##.........~]
-echo [.   ......#-++-+-++-+--+-+-+-##......  .~]
-echo [====......#-+--+--+-+--++--+-##......##.~]
-echo [#.........##++-++++-++++-+-+###.....=##.~]
-echo [~++++......##################......+~##.~]
-echo [.::: .......################....... ?##.~]
-echo [???? #...##......######...........#####.~]
-echo [..........# ....########................~]
-echo [.,,,,,,,...# ## ########........I,,,....~]
-echo [.##IIIII#.......########.......###II,,,.~]
-echo [.##.....#.. ....########....??????:,###.~]
-echo [.##.....#..#..+?~+####..+~~~~~..~++#++..~]
-echo [.##~~~~~#..#....~~~+##~~~ ##++.,#..#~~~.+]
-echo [.========..#=======.================##=.?]
-echo [...........#####............#  I. #.  ..~]
+
 echo =======================================================================
 
 color A
@@ -41,20 +16,20 @@ time /t
 
 echo Computador: %computername%        Usuario: %username%
 
-echo  ======================================================================
-echo  SELECIONE O TIPO DE ARQUIVO QUE DESEJA MOSTRAR                       =
-echo  ======================================================================
-echo * "1". Mostrar DOCUMENTO                                              *
-echo * "2". Mostrar VIDEO                                                  *
-echo * "3". Mostrar IMAGEM                                                 *
-echo * "4". Mostrar AUDIO                                                  *
-echo * "5". Instrucoes                                                     *
-echo * "6". Mostar pasta RAIZ para colocar os ARQUIVOS DE DOCUMENTO        *
-echo * "7". Mostar pasta RAIZ para colocar os ARQUIVOS DE VIDEO            *
-echo * "8". Mostar pasta RAIZ para colocar os ARQUIVOS DE IMAGEM           *
-echo * "9". Mostar pasta RAIZ para colocar os ARQUIVOS DE AUDIO            *
-echo * "10" ou "Sair". Sair deste Programa                                 *
-echo  ======================================================================
+echo  ====================================================================== ..........7 .7 .7  ...     ..........  
+echo  SELECIONE O TIPO DE ARQUIVO QUE DESEJA MOSTRAR                       = ..       .   .. ..   .7 .  .       7.  
+echo  ====================================================================== .. ....7 .  ....7 ......   . 7....  .  
+echo * "1". Mostrar DOCUMENTO                                              * .. ....7 .   ..... ...7    . 7....  .  
+echo * "2". Mostrar VIDEO                                                  * .. ....7 .      ...  .7    . 7....  .  
+echo * "3". Mostrar IMAGEM                                                 * .. 7777  .  .7 ...7  7     .  7777  .  
+echo * "4". Mostrar AUDIO                                                  * ..........  .7 .7 .  .7 .  ..........  
+echo * "5". Instrucoes                                                     *              ...7 .  .7                
+echo * "6". Mostar pasta RAIZ para colocar os ARQUIVOS DE DOCUMENTO        * .. .?    ...   .7 .   ..    ..   .  .  
+echo * "7". Mostar pasta RAIZ para colocar os ARQUIVOS DE VIDEO            *   . ~..7     ...7 .   ........ .. ...  
+echo * "8". Mostar pasta RAIZ para colocar os ARQUIVOS DE IMAGEM           * ..  ~........7 .........   .......  .  
+echo * "9". Mostar pasta RAIZ para colocar os ARQUIVOS DE AUDIO            *    ...... ...7 ...   .7        ..      
+echo * "10" ou "Sair". Sair deste Programa                                 *  7.....7  .. ...7  .. ...  ...    ...  
+echo  ====================================================================== ...    7 ...   ...    ..     7 ... 7.  
 
 set /p opcao= Escolha uma opcao: 
 echo ------------------------------

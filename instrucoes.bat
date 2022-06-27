@@ -15,12 +15,12 @@ echo Computador: %computername%        Usuario: %username%
                    
 echo  SELECIONE O TIPO DE INSTRUCAO QUE DESEJA RECEBER
 echo  ================================================
-echo * 1. Instrucoes sobre o SISTEMA DE DOCUMENTOS   *
-echo * 2. Instrucoes sobre o SISTEMA DE VIDEOS       *
-echo * 3. Instrucoes sobre o SISTEMA DE IMAGENS      *
-echo * 4. Instrucoes sobre o SISTEMA DE AUDIOS       *
-echo * 5. Voltar para o Painel Inicial               *
-echo * 6. Sair deste Programa                        *
+echo * "1". Instrucoes sobre o SISTEMA DE DOCUMENTOS   *
+echo * "2". Instrucoes sobre o SISTEMA DE VIDEOS       *
+echo * "3". Instrucoes sobre o SISTEMA DE IMAGENS      *
+echo * "4". Instrucoes sobre o SISTEMA DE AUDIOS       *
+echo * "5". Voltar para o Painel Inicial               *
+echo * "6" ou "Sair". Sair deste Programa                        *
 echo  ================================================
 
 set /p opcao= Escolha uma opcao: 
@@ -32,6 +32,8 @@ if %opcao% equ 3 goto opcao3
 if %opcao% equ 4 goto opcao4
 if %opcao% equ 5 goto opcao5
 if %opcao% equ 6 goto opcao6
+if %opcao% equ Sair goto opcao6
+if %opcao% equ sair goto opcao6
 if %opcao% GEQ 0 goto opcao0
 
 
