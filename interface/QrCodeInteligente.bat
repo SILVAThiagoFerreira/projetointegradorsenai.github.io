@@ -136,7 +136,7 @@ exit
 
 :opcao5
 cls
-start instrucoes.bat
+start InstrucoesQrCodeInteligente.exe
 exit
 
 :opcao6
